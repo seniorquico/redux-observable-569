@@ -1,0 +1,20 @@
+{
+  "name": "redux-observable-569",
+  "version": "1.0.0",
+  "description": "https://github.com/redux-observable/redux-observable/issues/569",
+  "main": "index.js",
+  "repository": "https://github.com/seniorquico/redux-observable-569",
+  "author": "Kyle Dodson <kyledodson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "4.0.1",
+    "redux-observable": "1.0.0",
+    "rxjs": "6.3.3",
+    "typescript": "3.1.6"
+  },
+  "scripts": {
+    "test-pass": "tsc --moduleResolution node --noEmit --target es6 --strict test-pass.ts",
+    "test-fail": "tsc --moduleResolution node --noEmit --target es6 --strict test-fail.ts",
+    "test-fail-nostrict": "tsc --moduleResolution node --noEmit --target es6 test-fail.ts"
+  }
+}
