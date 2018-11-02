@@ -2,7 +2,7 @@ A simple project that demonstrate a redux-observable problem when used with RxJS
 
 https://github.com/redux-observable/redux-observable/issues/569
 
-The examples are copied from the (Troubleshooting guide)[https://redux-observable.js.org/docs/Troubleshooting.html].
+The examples are copied from the [Troubleshooting guide](https://redux-observable.js.org/docs/Troubleshooting.html).
 
 I tested using:
 
